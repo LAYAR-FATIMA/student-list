@@ -36,7 +36,6 @@ stage(' app Deploy'){
    ansiblePlaybook credentialsId: '58c6beae-3bdb-4155-962e-d4fc1edbc687', installation: 'ansible', inventory: 'dev.inv', playbook: ''
 }
 
-
   }
       }
       }
