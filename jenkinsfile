@@ -31,7 +31,7 @@ pipeline {
 }
 stage(' app Deploy'){
       steps{
-    ansiblePlaybook disableHostKeyChecking: true, installation: 'ansible', inventory: 'dev.inv', playbook: 'playbook.yml'
+    ansiblePlaybook credentialsId: 'appserverr', disableHostKeyChecking: true, installation: 'ansible', inventory: 'dev.inv', playbook: 'playbook.yml'
  }
   }
       }
