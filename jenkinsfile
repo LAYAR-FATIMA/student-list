@@ -31,7 +31,7 @@ pipeline {
 }
 stage(' app Deploy'){
       steps{
-    ansiblePlaybook credentialsId: 'ab53c0ec-49d8-445c-8a08-8bf8291e45d2', disableHostKeyChecking: true, installation: 'ansible', inventory: 'dev.inv', playbook: ''
+    ansiblePlaybook credentialsId: 'ab53c0ec-49d8-445c-8a08-8bf8291e45d2', disableHostKeyChecking: true, installation: 'ansible', inventory: 'dev.inv', playbook: 'playbook.yml'
   }
       }
       }
