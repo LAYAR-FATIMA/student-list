@@ -1,3 +1,4 @@
+---
 - hosts: deploy_servers
   become: true
   tasks:
