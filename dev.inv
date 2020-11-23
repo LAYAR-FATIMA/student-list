@@ -1,2 +1,2 @@
 [deploy_servers]
-172.31.95.50 ansible_user=ansibleadmin
+172-31-87-21 ansible_sudo_pass=ansible ansible_ssh_user=ansibleadmin
