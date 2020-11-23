@@ -1,2 +1,2 @@
 [deploy_servers]
-54.147.79.148 ansible_user=ansibleadmin
+54.147.79.148 ansible_ssh_user=ansibleadmin
